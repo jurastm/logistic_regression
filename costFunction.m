@@ -4,7 +4,7 @@ m = lenght(y);
 J = 0;
 grad = zeros(size(theta));
 
-temp1 = -1*(y .* log(sigmoid(X*theta));
+temp1 = -1*(y .* log(sigmoid(X*theta)));
 temp2 = (1 - y) .* log(1 - sigmoid(X*theta));
 
 thetaT = theta;
